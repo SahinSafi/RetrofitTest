@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginTop="5dp"
+    app:cardCornerRadius="5dp"
+    android:background="#fff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/nameTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name: Shahin"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/hobbyTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hobby: Programming"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
